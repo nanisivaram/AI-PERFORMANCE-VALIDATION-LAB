@@ -1,0 +1,34 @@
+[
+  {
+    "run_type": "cold_start",
+    "wall_latency_s": 4.947,
+    "total_duration_ns": 2860471700,
+    "load_duration_ns": 344027200,
+    "prompt_eval_duration_ns": 67091800,
+    "eval_duration_ns": 2403572700
+  },
+  {
+    "run_type": "warm_run_1",
+    "wall_latency_s": 5.859,
+    "total_duration_ns": 3770682400,
+    "load_duration_ns": 365560600,
+    "prompt_eval_duration_ns": 75734300,
+    "eval_duration_ns": 3272556100
+  },
+  {
+    "run_type": "warm_run_2",
+    "wall_latency_s": 6.453,
+    "total_duration_ns": 4431839400,
+    "load_duration_ns": 574022400,
+    "prompt_eval_duration_ns": 74718000,
+    "eval_duration_ns": 3722717100
+  },
+  {
+    "run_type": "warm_run_3",
+    "wall_latency_s": 5.507,
+    "total_duration_ns": 3471600200,
+    "load_duration_ns": 435362200,
+    "prompt_eval_duration_ns": 80888800,
+    "eval_duration_ns": 2906646100
+  }
+]
