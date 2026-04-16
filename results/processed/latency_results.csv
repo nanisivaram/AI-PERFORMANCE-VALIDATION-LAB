@@ -1,0 +1,41 @@
+test_id,prompt,response,wall_latency_s,total_duration_ns,load_duration_ns,prompt_eval_duration_ns,eval_duration_ns
+T001,Explain AI in one sentence.,"Artificial Intelligence (AI) refers to the development of computer systems that can perform tasks that typically require human intelligence, such as learning, problem-solving, and decision-making, by using algorithms and data to mimic or augment human cognitive abilities.",8.943,6853297100,3123546000,882848000,2791747100
+T002,What is latency in software testing?,"In software testing, latency refers to the delay between when a user interacts with an application and when the response or result is displayed. In other words, it's the time difference between the input event (e.g., clicking a button) and the output (e.g., displaying a message).
+
+Latency can occur at various stages of the software development life cycle, including:
+
+1. User interface latency: The delay between user interactions (e.g., typing in a search bar) and the display of relevant results.
+2. Network latency: The delay caused by slow network connections or packet loss, affecting the speed of data transfer between devices.
+3. Server-side latency: The delay between a request being sent to a server and the response being received.
+
+High latency can lead to:
+
+1. Poor user experience
+2. Inability to respond quickly enough to changing situations
+3. Increased frustration for users
+4. Decreased trust in the system
+
+Measuring latency involves using various tools, such as:
+
+1. Network analysis tools (e.g., Wireshark)
+2. Profiling tools (e.g., Chrome DevTools)
+3. Benchmarking software (e.g., Apache JMeter)
+
+Common causes of high latency include:
+
+1. Poor network connectivity
+2. Overly complex algorithms or calculations
+3. Insufficient server resources (e.g., CPU, memory, or storage)
+4. Data compression or encryption issues
+
+To mitigate latency, developers and testers can focus on optimizing the system's performance, reducing unnecessary computations, improving database queries, and enhancing caching mechanisms.
+
+In software testing, understanding latency is essential for:
+
+1. Identifying and reproducing issues
+2. Measuring the impact of changes on latency
+3. Prioritizing optimization efforts
+
+By analyzing latency, testers can provide valuable insights to developers to improve the overall performance and user experience of the application.",29.097,27033422200,344610000,382379200,25900929800
+T003,What is 25 * 17?,The answer to 25 × 17 is 425.,3.69,1613433700,425000300,367599100,800598900
+T004,Write 2 lines about response time.,"A faster response time can provide a competitive advantage in today's fast-paced business world, allowing companies to react quickly to changes and opportunities. However, prioritizing a quick response time can sometimes lead to sacrificing quality or accuracy, highlighting the need for careful balancing in decision-making processes.",5.942,3850477800,323441800,361113300,3114570300
