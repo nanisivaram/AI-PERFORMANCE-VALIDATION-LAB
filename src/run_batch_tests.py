@@ -2,12 +2,14 @@ import json
 import time
 from pathlib import Path
 import requests
+import sys
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
 MODEL = "llama3.2"
 
 project_root = Path(__file__).resolve().parent.parent
-prompts_file = project_root / "prompts" / "short_prompts.json"
+prompt_type = sys.argv[1] if len(sys.argv) > 1 else "short"
+prompts_file = project_root / "prompts" / f"{prompt_type}_prompts.json"
 
 with prompts_file.open("r", encoding="utf-8") as f:
     prompts = json.load(f)
