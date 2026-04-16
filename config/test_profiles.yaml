@@ -1,0 +1,20 @@
+profiles:
+  single_test:
+    repeat_count: 1
+    stream: false
+    timeout_seconds: 120
+
+  batch_latency:
+    repeat_count: 1
+    stream: false
+    timeout_seconds: 120
+
+  consistency:
+    repeat_count: 5
+    stream: false
+    timeout_seconds: 120
+
+  cold_warm:
+    repeat_count: 4
+    stream: false
+    timeout_seconds: 120
