@@ -18,6 +18,11 @@ Modern AI assistants need more than correct answers. They must also respond quic
 
 - Ollama
 - Python
+- AI-testing
+- performance-testing
+- validation
+- LLM
+- QA
 - requests
 - pandas
 - psutil
